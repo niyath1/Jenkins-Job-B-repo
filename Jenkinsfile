@@ -1,6 +1,5 @@
 pipeline {
-    agent { label 'docker-agent' }  // Change to 'any' if docker-agent isn't working
-
+    agent any  
     stages {
         stage('Show Info') {
             steps {
